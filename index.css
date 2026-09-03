@@ -1,0 +1,110 @@
+body{
+    font-family:sans-serif;
+}
+.navbar{
+    background-color:#21467e;
+}
+.navbar-brand img{
+    width:90px;
+}
+.nav-link{
+    color:white !important;
+}
+.nav-link:hover,
+.nav-link.active{
+    color:#33d1cc !important;
+    
+}
+.icons{
+    border-left:1px solid #33d1cc;
+}
+.icons i{
+    color:#33d1cc;
+}
+.main-btn{
+    background:#ff3150;
+    color:#ffc400;
+}
+.landing{
+    height:600px;
+    background:#21467e;
+}
+.portfolio{
+    background:#eef4f7;
+    padding:35px 0;
+}
+.portfolio i{
+    font-size:35px;
+    margin-bottom:5px;
+}
+.portfolio h2{
+    font-size:30px;
+    margin:5px 0;
+}
+.portfolio p{
+    margin-bottom:10px;
+}
+.line{
+    width:150px;
+    height:3px;
+    background:#27c5c3;
+}
+.portfolio .mb-5{
+    margin-bottom:20px !important;
+}
+.all-btn{
+    background:#ff3150;
+    color:#ffc400;
+}
+.portfolio-item{
+    border:5px solid white;
+    overflow:hidden; 
+}
+.portfolio-item img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+.portfolio-item:hover img{
+    transform:scale(1.08);
+}
+.portfolio-item:hover 
+.about{
+    background:white;
+    padding:40px 0;
+}
+.about h2{
+    font-size:30px;
+}
+.about p{
+    font-size:14px;
+}
+.about img{
+   max-width:80%
+}
+.team{
+    background:#eef8fb;
+    padding:40px 0;
+}
+.team-title{
+    color:#ffc400;
+    font-size:35px;
+}
+.card{
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+.card img{
+    height:230px;
+    object-fit:cover;
+}
+.member-name{
+    background:#27c5c3;
+    color:white;
+    padding:10px;
+    margin:-16px -16px 15px;
+    font-size:22px;
+}
